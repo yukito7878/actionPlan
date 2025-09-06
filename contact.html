@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>お問い合わせ｜合同会社アクションプラン</title>
+	<meta name="description" content="撮影の有無・本数・納期目安などを添えてご連絡ください。">
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<!-- ヘッダー -->
+	<header>
+		<div class="container head-inner">
+			<div class="brand">
+				<img src="assets/ActionPlanLogo.png" class="logo" alt="ロゴ">
+				合同会社アクションプラン
+			</div>
+
+			<!-- ハンバーガーボタン -->
+			<button class="hamburger" id="hamburger" aria-label="メニューを開閉">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+
+			<!-- ナビゲーション -->
+			<nav class="nav" id="nav">
+				<a href="index.html">ホーム</a>
+				<a href="vision.html">ビジョン</a>
+				<a href="index.html#services">サービス</a>
+				<a href="index.html#pricing">料金</a>
+				<a href="index.html#flow">フロー</a>
+				<a class="btn" href="contact.html">お問い合わせ</a>
+			</nav>
+		</div>
+	</header>
+
+
+	<!-- Hero -->
+	<section class="hero-neo" style="min-height:70vh">
+		<div class="hero-grid">
+			<div class="hero-copy">
+				<span class="tag">CONTACT</span>
+				<h1>無料相談・お見積り</h1>
+				<p class="lead">用途・ターゲット・本数・納期目安を添えてご連絡ください。</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- メールフォーム -->
+	<section>
+		<div class="container">
+			<div class="grid cols-2">
+
+				<!-- メールフォーム（mailto形式） -->
+				<form class="card" action="mailto:actionplan003@gmail.com" method="POST" enctype="text/plain">
+					<h3>メールフォーム</h3>
+					<div style="display:grid;gap:.8rem">
+						<label>お名前<br>
+							<input required name="お名前" placeholder="山田 花子">
+						</label>
+						<label>メールアドレス<br>
+							<input required type="email" name="メールアドレス" placeholder="hanako@example.com">
+						</label>
+						<label>ご希望のメニュー<br>
+							<select name="ご希望メニュー">
+								<option>ショート動画編集（7本セット）</option>
+								<option>撮影＋編集</option>
+								<option>SNS運用代行</option>
+								<option>未定・相談したい</option>
+							</select>
+						</label>
+						<label>本数・納期目安など<br>
+							<textarea name="内容" rows="6" placeholder="例：7本／2週間以内に納品希望"></textarea>
+						</label>
+						<button class="btn" type="submit">メール送信</button>
+					</div>
+				</form>
+
+				<!-- 直接連絡 -->
+				<div class="card">
+					<h3>直接のご連絡</h3>
+					<p>
+						メール：<a href="mailto:actionplan003@gmail.com">actionplan003@gmail.com</a><br>
+						電話：<a href="tel:08082355361">080-8235-5361</a>
+					</p>
+					<img src="assets/office.png" alt="アクセス" class="contact-img">
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- フッター -->
+	<footer>
+		<div class="container foot">
+			<div class="grid">
+				<div>
+					<div class="brand" style="display:flex;align-items:center;gap:.6rem;margin-bottom:.6rem">
+						<img src="assets/ActionPlanLogo.png" class="logo" alt="ロゴ">
+						合同会社アクションプラン
+					</div>
+					<small>© Action Plan LLC. All rights reserved.</small>
+				</div>
+				<div>
+					<small>所在地：千葉県千葉市花見川区幕張本郷３丁目２１番１７号 リブリ・アイリス幕張本郷205号</small>
+				</div>
+				<!--				<div>-->
+				<!--					<small>代表者：後藤 黎香｜設立予定日：2025年8月25日｜資本金：100万円</small>-->
+				<!--				</div>-->
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
