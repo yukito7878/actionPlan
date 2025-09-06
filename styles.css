@@ -260,7 +260,6 @@ header.scrolled {
 	content: "";
 	position: absolute;
 	inset: 0;
-	background: url('/assets/hero.jpg') center/cover no-repeat;
 	opacity: .45;
 	mix-blend: overlay
 }
